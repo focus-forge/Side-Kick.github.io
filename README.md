@@ -1,87 +1,72 @@
-# FocusFor⚒️e Legal Documents
+# FocusForge Legal Documents
 
-This repository hosts the legal documents for the **FocusForge** iOS productivity app.
+This repository hosts the legal documents for **FocusForge** — the iOS productivity app built for ADHD brains.
 
-## 📄 Documents
+## Documents
 
-### Privacy Policy
-**URL:** [https://focus-forge.github.io/](https://focus-forge.github.io/)
+| Document | URL |
+|----------|-----|
+| **Privacy Policy** | [https://focus-forge.github.io/privacy-policy.html](https://focus-forge.github.io/privacy-policy.html) |
+| **Terms of Service** | [https://focus-forge.github.io/terms-of-service.html](https://focus-forge.github.io/terms-of-service.html) |
+| **Landing Page** | [https://focus-forge.github.io/](https://focus-forge.github.io/) |
 
-Our comprehensive privacy policy covering:
-- Data collection and usage
-- HealthKit integration
-- Screen Time API usage
-- Subscription information
-- Third-party services (Superwall, Supabase)
-- GDPR and CCPA compliance
-- User rights and data protection
+## About FocusForge
 
-### Terms of Service
-**URL:** [https://focus-forge.github.io/terms-of-service.html](https://focus-forge.github.io/terms-of-service.html)
+FocusForge is a productivity app designed specifically for people with ADHD. Unlike traditional productivity apps, we work *with* ADHD traits — not against them.
 
-Complete terms of service including:
-- Subscription terms and pricing
-- Free trial information
-- User responsibilities
-- Intellectual property rights
-- Disclaimers and limitations of liability
-- Refund policy
-
-## 📱 About FocusForge
-
-FocusForge is a productivity app for iOS that helps you stay focused and build better habits.
+**Core Philosophy:**
+- No shame mechanics (no streaks, no "overdue," no red warnings)
+- Flexible, not rigid scheduling
+- External brain support (capture, reminders, visual time)
+- Strategic dopamine delivery through meaningful gamification
 
 **Key Features:**
-- 🎯 Focus Timer with Pomodoro technique
-- 🛡️ App Blocking (Loose Block & Strict Block)
-- 📅 Daily Routines & Habit Tracking
-- ✅ Task Management
-- 💪 Fitness Integration with HealthKit
-- 🏆 Challenges & Gamification
-- 📊 Progress Analytics
+- Focus Sessions with momentum tracking
+- Friction (impulse control) — countdown timers before opening distracting apps
+- App Blocking during focus sessions
+- ADHD-friendly task management
+- Daily Routines (morning, evening, work)
+- Sleep → Focus correlation insights
+- Energy level tracking and patterns
+- Peak hours and day pattern analysis
 
-## 💰 Pricing
+## Pricing
 
 **Free Tier:**
-- Sticky Timer (unlimited)
-- Loose Block (4 bypasses per day)
-- Basic task management
+- Focus sessions with momentum tracking
+- Friction (impulse control)
+- Basic app blocking
+- Task management
 - Limited routines
+- Energy logging
 
-**FocusForge Pro:**
-- **Annual:** $29.99/year (3-day free trial)
-- **Weekly:** $5.99/week (3-day free trial)
-
-**Pro Features:**
-- Strict Block (unbreakable app blocking)
-- Unlimited Loose Block bypasses
+**FocusForge Pro — $39.99/year:**
+- Advanced Insights (sleep-focus correlations, peak hours, day patterns)
 - Unlimited routines
-- Advanced analytics
+- Schedule-based blocking
+- Advanced friction settings
 - Priority support
+- Early access to new features
 
-## 📧 Contact
+*3-day free trial available for new subscribers*
 
-For questions, support, or privacy concerns:
+## Contact
 
 **Email:** [caazamar@gmail.com](mailto:caazamar@gmail.com)
 
-## 📅 Last Updated
+## Last Updated
 
-**Privacy Policy:** October 30, 2025
-**Terms of Service:** October 30, 2025
+- **Privacy Policy:** January 22, 2026
+- **Terms of Service:** January 22, 2026
 
-## 🔒 Compliance
+## Compliance
 
-These documents are designed to comply with:
+These documents comply with:
 - Apple App Store Review Guidelines
 - GDPR (General Data Protection Regulation)
-- CCPA (California Consumer Privacy Act)
+- CCPA/CPRA (California Consumer Privacy Act)
 - COPPA (Children's Online Privacy Protection Act)
-
-## ⚖️ Legal
-
-Copyright © 2025 FocusForge. All Rights Reserved.
 
 ---
 
-**Note:** This repository contains only the legal documentation. The FocusForge iOS app source code is maintained in a separate private repository.
+Copyright © 2026 FocusForge. All Rights Reserved.
