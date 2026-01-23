@@ -1,6 +1,6 @@
-# FocusForge Legal Documents
+# SideKick Legal Documents
 
-This repository hosts the legal documents for **FocusForge** — the iOS productivity app built for ADHD brains.
+This repository hosts the legal documents for **SideKick** — the iOS productivity app built for ADHD brains.
 
 ## Documents
 
@@ -10,9 +10,9 @@ This repository hosts the legal documents for **FocusForge** — the iOS product
 | **Terms of Service** | [https://focus-forge.github.io/terms-of-service.html](https://focus-forge.github.io/terms-of-service.html) |
 | **Landing Page** | [https://focus-forge.github.io/](https://focus-forge.github.io/) |
 
-## About FocusForge
+## About SideKick
 
-FocusForge is a productivity app designed specifically for people with ADHD. Unlike traditional productivity apps, we work *with* ADHD traits — not against them.
+SideKick is a productivity app designed specifically for people with ADHD. Unlike traditional productivity apps, we work *with* ADHD traits — not against them.
 
 **Core Philosophy:**
 - No shame mechanics (no streaks, no "overdue," no red warnings)
@@ -40,7 +40,7 @@ FocusForge is a productivity app designed specifically for people with ADHD. Unl
 - Limited routines
 - Energy logging
 
-**FocusForge Pro — $39.99/year:**
+**SideKick Pro — $39.99/year:**
 - Advanced Insights (sleep-focus correlations, peak hours, day patterns)
 - Unlimited routines
 - Schedule-based blocking
@@ -69,4 +69,4 @@ These documents comply with:
 
 ---
 
-Copyright © 2026 FocusForge. All Rights Reserved.
+Copyright © 2026 SideKick. All Rights Reserved.
