@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SideKick is an ADHD-friendly focus companion that helps reduce phone distractions through friction-based app blocking.">
+    <title>SideKick: ADHD Focus Companion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 24px;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .intro {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .features {
+            display: grid;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 16px;
+            transition: transform 0.2s;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .cta-text {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .app-store-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px 40px;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            opacity: 0.8;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: opacity 0.2s;
+        }
+
+        footer a:hover {
+            opacity: 0.7;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .tagline {
+                font-size: 18px;
+            }
+
+            .intro {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🛡️</div>
+            <h1>SideKick</h1>
+            <p class="tagline">ADHD Focus Companion</p>
+        </header>
+
+        <div class="intro">
+            <p>
+                SideKick helps individuals with ADHD reduce phone distractions through friction-based
+                app blocking. Instead of harsh restrictions, SideKick creates a brief pause before
+                opening distracting apps—giving you time to make intentional choices rather than
+                acting on impulse.
+            </p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">⏱️</div>
+                <h3>Friction Shields</h3>
+                <p>
+                    Brief countdown (10-120 seconds) before opening selected apps. This pause helps you
+                    recognize impulsive behavior and make conscious choices about your time.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">📅</div>
+                <h3>Focus Schedules</h3>
+                <p>
+                    Create time-based blocking schedules connected to your goals. Set friction levels,
+                    session durations, and customize blocking for different times of day.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🧠</div>
+                <h3>ADHD-Optimized Design</h3>
+                <p>
+                    No shame-based limits or daily counters. Adaptive friction increases gradually
+                    with repeated opens, providing gentle resistance without creating anxiety.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">😴</div>
+                <h3>Sleep Integration</h3>
+                <p>
+                    Integrates with HealthKit to track sleep patterns and provide personalized insights
+                    about how your rest affects your focus and productivity.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <h3>Home Screen Widgets</h3>
+                <p>
+                    See your focus tasks and schedules right on your home screen. Check off tasks
+                    without opening the app for quick wins throughout the day.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <h3>Privacy First</h3>
+                <p>
+                    All data stored locally on your device. No cloud sync, no third-party sharing,
+                    no tracking. Your focus journey is yours alone.
+                </p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <p class="cta-text">Coming Soon to the App Store</p>
+            <span class="app-store-badge">iOS 16+</span>
+        </div>
+
+        <footer>
+            <p>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms-of-service.html">Terms of Service</a>
+                <a href="mailto:caazamar@gmail.com">Support</a>
+            </p>
+            <p style="margin-top: 20px; font-size: 14px;">
+                © 2026 SideKick. All rights reserved.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
