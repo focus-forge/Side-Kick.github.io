@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SideKick</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f7; color: #1d1d1f; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 20px; text-align: center; margin: -40px -20px 40px -20px; }
+        h1 { font-size: 36px; margin-bottom: 10px; }
+        .subtitle { opacity: 0.9; }
+        .content { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { color: #667eea; margin-top: 30px; margin-bottom: 15px; font-size: 24px; }
+        h3 { color: #764ba2; margin-top: 20px; margin-bottom: 10px; font-size: 18px; }
+        p, li { margin-bottom: 15px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        .highlight { background: #f0f0f5; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #667eea; }
+        .warning { background: #fff8f0; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #f0a500; }
+        .back-link { display: inline-block; color: #667eea; text-decoration: none; margin-bottom: 20px; font-weight: 600; }
+        .back-link:hover { text-decoration: underline; }
+        .contact-box { background: #f0f0f5; padding: 20px; border-radius: 8px; margin-top: 40px; }
+        .effective-date { color: #86868b; font-size: 14px; margin-top: 40px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background: #667eea; color: white; padding: 10px 14px; text-align: left; }
+        td { padding: 10px 14px; border-bottom: 1px solid #e5e5e5; vertical-align: top; }
+        tr:nth-child(even) td { background: #f9f9fb; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">SideKick: ADHD Focus Companion</p>
+    </header>
+
+    <a href="index.html" class="back-link">&larr; Back to Home</a>
+
+    <div class="content">
+
+        <div class="highlight">
+            <strong>&#128274; The short version:</strong> Almost everything stays on your device. The two exceptions are crash reports (Sentry) and anonymous usage signals (TelemetryDeck) — both are explained in full below. We never sell your data. We never advertise to you.
+        </div>
+
+        <h2>1. Who We Are</h2>
+        <p>SideKick is developed and operated as a solo independent app. References to "we," "us," or "our" mean the individual developer. Our contact email is <strong>caazamar@gmail.com</strong>.</p>
+
+        <h2>2. What Data We Collect and Why</h2>
+        <p>We separate data into two categories: data that never leaves your device, and data that is transmitted to third-party services we use to operate the app.</p>
+
+        <h3>2.1 Data Stored Locally on Your Device Only</h3>
+        <p>The following data is created and stored exclusively on your device. It is never transmitted to us or any third party.</p>
+
+        <table>
+            <tr><th>Data</th><th>Purpose</th></tr>
+            <tr><td><strong>App blocking selections</strong> (which apps/categories you choose to block)</td><td>To apply and manage shield screens via Apple's Screen Time API</td></tr>
+            <tr><td><strong>Focus schedules</strong> (times, days, goal statements, app selections)</td><td>To automatically activate blocking on your chosen schedule</td></tr>
+            <tr><td><strong>Brain dump items</strong> (text and voice-transcribed notes you capture)</td><td>To store your thoughts in your local inbox for later processing</td></tr>
+            <tr><td><strong>Focus tasks</strong> (titles, status, priority)</td><td>To manage your task list within the app</td></tr>
+            <tr><td><strong>Energy check-in logs</strong> (energy level, timestamp)</td><td>To track your energy patterns and display insights</td></tr>
+            <tr><td><strong>Session and block counts</strong> (how many times you opened blocked apps, session durations)</td><td>To calculate focus scores and display progress</td></tr>
+            <tr><td><strong>Onboarding selections</strong> (goal, challenge type)</td><td>To personalise your plan and shield messaging</td></tr>
+            <tr><td><strong>App settings and preferences</strong> (friction duration, cool-down settings, color scheme)</td><td>To remember your configuration between sessions</td></tr>
+            <tr><td><strong>Sleep data</strong> (read from Apple HealthKit — optional)</td><td>To show sleep-focus insights. Never written back to HealthKit. Entirely optional.</td></tr>
+        </table>
+
+        <div class="highlight">
+            <strong>Voice / Speech Recognition:</strong> When you use "Speak instead" in Brain Dump, your voice is processed by Apple's on-device Speech Recognition framework (SFSpeechRecognizer). Apple may route audio through their servers for transcription depending on your iOS version and settings. The transcribed text is stored locally in your Brain Dump inbox. We do not receive, store, or have access to your audio or transcription at any point.
+        </div>
+
+        <h3>2.2 Data Transmitted to Third-Party Services</h3>
+        <p>We use two external services to help us maintain a stable, quality app. Neither receives personally identifiable information.</p>
+
+        <h3>Sentry (Crash Reporting)</h3>
+        <ul>
+            <li><strong>What it collects:</strong> Crash reports, error stack traces, device type, iOS version, app version, and a randomly generated anonymous device identifier.</li>
+            <li><strong>What it does NOT collect:</strong> Your name, email, IP address (Sentry scrubs IPs by default in our configuration), your blocked app selections, your tasks, your brain dump contents, or any health data.</li>
+            <li><strong>Why we use it:</strong> To detect and fix crashes so the app remains stable. Without crash reports, we would not know when something breaks.</li>
+            <li><strong>Data residency:</strong> Sentry is operated by Functional Software, Inc. Data may be processed in the United States.</li>
+            <li><strong>Sentry's privacy policy:</strong> <a href="https://sentry.io/privacy/" target="_blank">sentry.io/privacy</a></li>
+        </ul>
+
+        <h3>TelemetryDeck (Anonymous Analytics)</h3>
+        <ul>
+            <li><strong>What it collects:</strong> Anonymous, hashed signals such as "app opened," "onboarding step reached," "onboarding completed," and "shield bypassed." TelemetryDeck hashes all identifiers using a double-hashing method that makes it cryptographically impossible to identify individual users.</li>
+            <li><strong>What it does NOT collect:</strong> Any content you create (tasks, brain dump items, schedule names), your blocked app list, your health data, or any information that could identify you personally.</li>
+            <li><strong>Why we use it:</strong> To understand which features are used and how onboarding performs, so we can improve the app. We see counts and trends, never individuals.</li>
+            <li><strong>TelemetryDeck's privacy policy:</strong> <a href="https://telemetrydeck.com/privacy/" target="_blank">telemetrydeck.com/privacy</a></li>
+            <li><strong>GDPR / CCPA:</strong> TelemetryDeck is designed to be used without consent banners under GDPR because it does not process personal data. See their legal documentation for details.</li>
+        </ul>
+
+        <h2>3. Permissions We Request</h2>
+
+        <table>
+            <tr><th>Permission</th><th>Used For</th><th>Required?</th></tr>
+            <tr><td><strong>Screen Time (Family Controls)</strong></td><td>Applying and removing app blocking shields</td><td>Yes — core feature</td></tr>
+            <tr><td><strong>Notifications</strong></td><td>Daily summary alerts, energy check-in reminders, unblock window expiry alerts, focus schedule alerts</td><td>Optional — you can decline</td></tr>
+            <tr><td><strong>Microphone</strong></td><td>Voice input for Brain Dump capture</td><td>Optional — Brain Dump works via text without it</td></tr>
+            <tr><td><strong>Speech Recognition</strong></td><td>Converting spoken Brain Dump entries to text</td><td>Optional — only used if you tap "Speak instead"</td></tr>
+            <tr><td><strong>HealthKit (Sleep)</strong></td><td>Reading sleep analysis to show sleep-focus correlation insights</td><td>Optional — all other features work without it</td></tr>
+        </table>
+
+        <p>You can revoke any permission at any time in <strong>iOS Settings &rarr; Privacy &amp; Security</strong>. Revoking Screen Time access will disable app blocking. Revoking other permissions disables only the specific feature that relies on them.</p>
+
+        <h2>4. Data We Do Not Collect</h2>
+        <ul>
+            <li>&#10060; No account creation or login</li>
+            <li>&#10060; No cloud storage or syncing of your personal data</li>
+            <li>&#10060; No advertising or ad tracking of any kind</li>
+            <li>&#10060; No sale of data to any third party, ever</li>
+            <li>&#10060; No location tracking</li>
+            <li>&#10060; No contact list or address book access</li>
+            <li>&#10060; No camera access</li>
+            <li>&#10060; No photos library access</li>
+            <li>&#10060; No screen recordings or screenshots</li>
+            <li>&#10060; No tracking across other apps or websites (no ATT / IDFA usage)</li>
+        </ul>
+
+        <h2>5. In-App Purchases and Subscriptions</h2>
+        <p>SideKick offers auto-renewing subscriptions ("SideKick Pro") processed entirely through Apple's App Store via StoreKit. Current pricing:</p>
+        <ul>
+            <li><strong>Monthly:</strong> $8.99 per month</li>
+            <li><strong>Yearly:</strong> $59.99 per year</li>
+        </ul>
+        <p>We do not have access to your payment card number, billing address, or any financial information. Apple handles all payment processing. Apple may collect purchase history and payment details — see <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
+        <p>Your subscription status (active or inactive) is verified locally via StoreKit and stored on your device. We do not maintain a server-side record of who is subscribed.</p>
+
+        <h2>6. Widgets and Extensions</h2>
+        <p>SideKick includes home screen widgets, a Live Activity (Dynamic Island / Lock Screen), a Shield Configuration extension, a Device Activity Monitor extension, and a Notification Service extension. These components share data with the main app exclusively through Apple's App Group mechanism — a sandboxed, on-device storage container (<code>group.com.azamgofur.focusforgeios.shared</code>). No data leaves your device through these extensions.</p>
+
+        <h2>7. Data Retention and Deletion</h2>
+        <p>Because all personal data is stored locally on your device, you are in full control:</p>
+        <ul>
+            <li><strong>While the app is installed:</strong> Data is retained on your device until you delete it.</li>
+            <li><strong>Delete the app:</strong> Uninstalling SideKick permanently removes all locally stored data.</li>
+            <li><strong>In-app deletion:</strong> You can delete all app data from <strong>Settings &rarr; Data &amp; Privacy &rarr; Delete All Data</strong>.</li>
+            <li><strong>Crash report data (Sentry):</strong> Retained by Sentry for 90 days, then automatically deleted. You cannot be individually identified within Sentry reports.</li>
+            <li><strong>Analytics data (TelemetryDeck):</strong> Retained as aggregate anonymous counts. Because no personal identifier is stored, individual deletion is not technically possible or meaningful.</li>
+        </ul>
+
+        <h2>8. Your Rights</h2>
+
+        <h3>All Users</h3>
+        <ul>
+            <li><strong>Access:</strong> All your personal data is visible within the app at any time.</li>
+            <li><strong>Deletion:</strong> Delete all data from within Settings or by uninstalling the app.</li>
+            <li><strong>Permission withdrawal:</strong> Revoke any permission via iOS Settings at any time.</li>
+        </ul>
+
+        <h3>European Economic Area (GDPR)</h3>
+        <p>The personal data we process is minimal. For locally stored data, you act as both data subject and sole controller since it never leaves your device. For Sentry crash data, we act as data controller and Sentry as processor under a Data Processing Agreement. Under GDPR you have the right to access, rectify, erase, restrict processing of, and port your data. Contact us at <strong>caazamar@gmail.com</strong> to exercise these rights. For Sentry data, because it is anonymised and not linked to your identity, individual erasure requests may not be technically fulfillable, but we will make reasonable efforts.</p>
+
+        <h3>California Residents (CCPA / CPRA)</h3>
+        <p>We do not sell or share personal information with third parties for cross-context behavioural advertising. You have the right to know what personal information we collect (detailed in Section 2 above), the right to delete, and the right to non-discrimination for exercising your rights. To submit a request, contact <strong>caazamar@gmail.com</strong>.</p>
+
+        <h2>9. Children's Privacy</h2>
+        <p>SideKick is not directed at children under 13. We do not knowingly collect personal information from children under 13. The app is designed for individuals aged 13 and older who manage their own devices. If you are a parent or guardian and believe your child under 13 has installed the app, please uninstall it. Because all data is local, uninstalling removes all associated data. Contact us at <strong>caazamar@gmail.com</strong> if you need assistance.</p>
+        <p>Users aged 13–17 should review this policy with a parent or guardian before use.</p>
+
+        <h2>10. Security</h2>
+        <p>Your data is protected by iOS's built-in sandboxing, encryption at rest (iOS Data Protection), and App Group entitlement restrictions that limit access to authorised app components only. We do not transmit your personal data over the internet, which eliminates the largest category of data breach risk. Crash reports sent to Sentry travel over TLS-encrypted connections.</p>
+
+        <h2>11. International Transfers</h2>
+        <p>Your personal data (tasks, schedules, brain dump items, health data) does not leave your device and is therefore not subject to international transfer. Crash report data processed by Sentry may be transferred to and stored in the United States. Sentry maintains appropriate safeguards for such transfers including Standard Contractual Clauses.</p>
+
+        <h2>12. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy when features change or legal requirements evolve. Material changes will be communicated through an app update notice. The updated policy will be posted here with a new effective date. Continued use of the app after the updated effective date constitutes your acceptance of the revised policy.</p>
+
+        <h2>13. Contact</h2>
+        <div class="contact-box">
+            <p>For any privacy questions, data requests, or concerns:</p>
+            <p><strong>Email:</strong> caazamar@gmail.com</p>
+            <p>We aim to respond to all privacy inquiries within 30 days.</p>
+        </div>
+
+        <p class="effective-date">
+            <strong>Effective Date:</strong> June 28, 2026<br>
+            <strong>Last Updated:</strong> June 28, 2026<br>
+            <strong>Previous version effective:</strong> February 21, 2026
+        </p>
+
+    </div>
+</div>
+</body>
+</html>
