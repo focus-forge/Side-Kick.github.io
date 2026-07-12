@@ -47,7 +47,7 @@
         <p>SideKick is developed and operated as a solo independent app. References to "we," "us," or "our" mean the individual developer. Our contact email is <strong>caazamar@gmail.com</strong>.</p>
 
         <h2>2. What Data We Collect and Why</h2>
-        <p>We separate data into two categories: data that never leaves your device, and data that is transmitted to third-party services we use to operate the app.</p>
+        <p>We separate data into two categories: data that never leaves your device, and data that is transmitted to third-party services we use to operate the app. (The optional "Get a Sidekick" pairing feature is covered separately in Section 7.)</p>
 
         <h3>2.1 Data Stored Locally on Your Device Only</h3>
         <p>The following data is created and stored exclusively on your device. It is never transmitted to us or any third party.</p>
@@ -106,7 +106,7 @@
         <h2>4. Data We Do Not Collect</h2>
         <ul>
             <li>&#10060; No account creation or login</li>
-            <li>&#10060; No cloud storage or syncing of your personal data</li>
+            <li>&#10060; No cloud storage or syncing of your personal data (one exception: if you opt in to "Get a Sidekick", four anonymous daily stats are stored in Apple's CloudKit &mdash; see Section 7)</li>
             <li>&#10060; No advertising or ad tracking of any kind</li>
             <li>&#10060; No sale of data to any third party, ever</li>
             <li>&#10060; No location tracking</li>
@@ -129,17 +129,31 @@
         <h2>6. Widgets and Extensions</h2>
         <p>SideKick includes home screen widgets, a Live Activity (Dynamic Island / Lock Screen), a Shield Configuration extension, a Device Activity Monitor extension, and a Notification Service extension. These components share data with the main app exclusively through Apple's App Group mechanism — a sandboxed, on-device storage container (<code>group.com.azamgofur.focusforgeios.shared</code>). No data leaves your device through these extensions.</p>
 
-        <h2>7. Data Retention and Deletion</h2>
-        <p>Because all personal data is stored locally on your device, you are in full control:</p>
+        <h2>7. Get a Sidekick (Duo Pairing) &mdash; Optional</h2>
+        <p>SideKick includes an optional accountability feature that lets you pair with exactly one friend. It does nothing until you explicitly opt in through a consent screen inside the app, and none of what follows applies unless you do.</p>
+
+        <h3>What is shared</h3>
+        <p>When paired, the app syncs exactly four app-generated daily numbers between you and your sidekick: your shared duo streak, whether your shield was active that day, how many impulses you caught that day, and your focus minutes that day. <strong>Never shared:</strong> which apps you block, open, or use; anything you do inside any app; raw Screen Time data; your name, contacts, or any identifier.</p>
+
+        <h3>Where it is stored</h3>
+        <p>Duo records are stored in the app's Apple CloudKit public database &mdash; Apple-operated infrastructure; there are no third-party servers and no server operated by us. The records are anonymous: they contain no name, email, or profile, and are linked only through a randomly generated 8-character invite code. Only someone who has your invite code can associate with your records. The nickname you give your sidekick is stored only on your own device and is never uploaded.</p>
+
+        <h3>Ending a pairing</h3>
+        <p>Unpairing immediately deletes your shared stats from CloudKit and stops all sharing. Your former sidekick's copy of their own records is removed the next time they open the app. If you plan to uninstall the app while paired, unpair first so your duo records are cleaned up.</p>
+
+        <p>Using this feature requires being signed in to iCloud. Apple's handling of CloudKit data is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
+
+        <h2>8. Data Retention and Deletion</h2>
+        <p>Aside from the optional Get a Sidekick data described in Section 7, all personal data is stored locally on your device and you are in full control:</p>
         <ul>
             <li><strong>While the app is installed:</strong> Data is retained on your device until you delete it.</li>
-            <li><strong>Delete the app:</strong> Uninstalling SideKick permanently removes all locally stored data.</li>
+            <li><strong>Delete the app:</strong> Uninstalling SideKick permanently removes all locally stored data. If you are paired with a sidekick, unpair first to remove your duo records from CloudKit.</li>
             <li><strong>In-app deletion:</strong> You can delete all app data from <strong>Settings &rarr; Data &amp; Privacy &rarr; Delete All Data</strong>.</li>
             <li><strong>Crash report data (Sentry):</strong> Retained by Sentry for 90 days, then automatically deleted. You cannot be individually identified within Sentry reports.</li>
             <li><strong>Analytics data (TelemetryDeck):</strong> Retained as aggregate anonymous counts. Because no personal identifier is stored, individual deletion is not technically possible or meaningful.</li>
         </ul>
 
-        <h2>8. Your Rights</h2>
+        <h2>9. Your Rights</h2>
 
         <h3>All Users</h3>
         <ul>
@@ -149,25 +163,25 @@
         </ul>
 
         <h3>European Economic Area (GDPR)</h3>
-        <p>The personal data we process is minimal. For locally stored data, you act as both data subject and sole controller since it never leaves your device. For Sentry crash data, we act as data controller and Sentry as processor under a Data Processing Agreement. Under GDPR you have the right to access, rectify, erase, restrict processing of, and port your data. Contact us at <strong>caazamar@gmail.com</strong> to exercise these rights. For Sentry data, because it is anonymised and not linked to your identity, individual erasure requests may not be technically fulfillable, but we will make reasonable efforts.</p>
+        <p>The personal data we process is minimal. For locally stored data, you act as both data subject and sole controller since it never leaves your device. For optional Get a Sidekick data, we act as data controller and Apple (CloudKit) as processor; the records are anonymous aggregates, and you can erase your records at any time by unpairing. For Sentry crash data, we act as data controller and Sentry as processor under a Data Processing Agreement. Under GDPR you have the right to access, rectify, erase, restrict processing of, and port your data. Contact us at <strong>caazamar@gmail.com</strong> to exercise these rights. For Sentry data, because it is anonymised and not linked to your identity, individual erasure requests may not be technically fulfillable, but we will make reasonable efforts.</p>
 
         <h3>California Residents (CCPA / CPRA)</h3>
         <p>We do not sell or share personal information with third parties for cross-context behavioural advertising. You have the right to know what personal information we collect (detailed in Section 2 above), the right to delete, and the right to non-discrimination for exercising your rights. To submit a request, contact <strong>caazamar@gmail.com</strong>.</p>
 
-        <h2>9. Children's Privacy</h2>
+        <h2>10. Children's Privacy</h2>
         <p>SideKick is not directed at children under 13. We do not knowingly collect personal information from children under 13. The app is designed for individuals aged 13 and older who manage their own devices. If you are a parent or guardian and believe your child under 13 has installed the app, please uninstall it. Because all data is local, uninstalling removes all associated data. Contact us at <strong>caazamar@gmail.com</strong> if you need assistance.</p>
         <p>Users aged 13–17 should review this policy with a parent or guardian before use.</p>
 
-        <h2>10. Security</h2>
-        <p>Your data is protected by iOS's built-in sandboxing, encryption at rest (iOS Data Protection), and App Group entitlement restrictions that limit access to authorised app components only. We do not transmit your personal data over the internet, which eliminates the largest category of data breach risk. Crash reports sent to Sentry travel over TLS-encrypted connections.</p>
+        <h2>11. Security</h2>
+        <p>Your data is protected by iOS's built-in sandboxing, encryption at rest (iOS Data Protection), and App Group entitlement restrictions that limit access to authorised app components only. Aside from optional, anonymous Get a Sidekick records (stored on Apple's CloudKit over encrypted connections), we do not transmit your personal data over the internet, which eliminates the largest category of data breach risk. Crash reports sent to Sentry travel over TLS-encrypted connections.</p>
 
-        <h2>11. International Transfers</h2>
-        <p>Your personal data (tasks, schedules, brain dump items, health data) does not leave your device and is therefore not subject to international transfer. Crash report data processed by Sentry may be transferred to and stored in the United States. Sentry maintains appropriate safeguards for such transfers including Standard Contractual Clauses.</p>
+        <h2>12. International Transfers</h2>
+        <p>Your personal data (tasks, schedules, brain dump items, health data) does not leave your device and is therefore not subject to international transfer. Optional Get a Sidekick records are stored on Apple's CloudKit infrastructure, which may process data in the United States under Apple's safeguards. Crash report data processed by Sentry may be transferred to and stored in the United States. Sentry maintains appropriate safeguards for such transfers including Standard Contractual Clauses.</p>
 
-        <h2>12. Changes to This Policy</h2>
+        <h2>13. Changes to This Policy</h2>
         <p>We may update this Privacy Policy when features change or legal requirements evolve. Material changes will be communicated through an app update notice. The updated policy will be posted here with a new effective date. Continued use of the app after the updated effective date constitutes your acceptance of the revised policy.</p>
 
-        <h2>13. Contact</h2>
+        <h2>14. Contact</h2>
         <div class="contact-box">
             <p>For any privacy questions, data requests, or concerns:</p>
             <p><strong>Email:</strong> caazamar@gmail.com</p>
@@ -175,9 +189,9 @@
         </div>
 
         <p class="effective-date">
-            <strong>Effective Date:</strong> June 28, 2026<br>
-            <strong>Last Updated:</strong> June 28, 2026<br>
-            <strong>Previous version effective:</strong> February 21, 2026
+            <strong>Effective Date:</strong> July 11, 2026<br>
+            <strong>Last Updated:</strong> July 11, 2026<br>
+            <strong>Previous version effective:</strong> June 28, 2026
         </p>
 
     </div>
